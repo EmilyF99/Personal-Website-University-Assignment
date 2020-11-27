@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    grid-template-columns: "30% 70%";
+    grid-template-rows: "25% 15% 60%"; 
+    grid-template-areas: "mobile_top mobile_top"
+                         "aside header" 
+                         "aside main";
+}
+
+.mobile_top {
+    background-color:#5A2E2E;
+    height:25vh; 
+    width:100vw;
+
+}
+
+header{
+    width:70vw;
+}
+
+nav {
+    display: none;
+}
+
+aside{
+    width: 30vw;
+}
+
+main{
+    width: 70vw
+}

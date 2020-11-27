@@ -1,0 +1,19 @@
+header {
+    grid-area:header;
+    background-color: #D9CC8C;
+  }
+  
+  nav {
+    grid-area:nav;
+    background-color: #5A2E2E;
+  }
+  
+  aside {
+   grid-area:aside;
+   background-color: #D9CC8C;
+  }
+
+  main {
+    grid-area:aside;
+    background-color: #D9CC8C;
+  }
