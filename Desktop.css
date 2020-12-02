@@ -1,26 +1,32 @@
 body {
     display: grid;
     grid-template-columns:"40% 60%";
-    grid-template-rows: "25% 30% 40%"; 
+    grid-template-rows: "25% 70%"; 
     grid-template-areas: "nav nav"
-                         "aside header" 
                          "aside main";
 }
 
 nav {
     width: 100vw;
+    height: 20vh;
 }
-
+nav ul ul {
+    background-color: #5A2E2E;
+    color:white;
+}
 aside {
     width: 40vw;
+    height:80vh;
 }
 
 header{
     width:60%vw;
+    height:40vh;
 }
 
 main{
     width:60%vw;
+    height:60vh;
 }
 
 .mobile_top{

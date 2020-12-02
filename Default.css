@@ -6,6 +6,7 @@ header {
   nav {
     grid-area:nav;
     background-color: #5A2E2E;
+    color:white;
   }
   
   aside {
