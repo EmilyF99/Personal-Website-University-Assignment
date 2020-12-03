@@ -1,20 +1,36 @@
 header {
     grid-area:header;
     background-color: #D9CC8C;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
   }
   
-  nav {
+nav {
     grid-area:nav;
-    background-color: #5A2E2E;
+    background-color:#D9CC8C;
     color:white;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    list-style:none; 
+    text-decoration: none;
   }
   
-  aside {
+aside {
    grid-area:aside;
    background-color: #D9CC8C;
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
   }
 
-  main {
-    grid-area:aside;
+main {
+    grid-area:main;
     background-color: #D9CC8C;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
   }
+li {
+  list-style:none;
+  color:white; 
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+}
