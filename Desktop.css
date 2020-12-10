@@ -11,8 +11,7 @@ body {
 nav {
     grid-area:nav;
     display:inline;
-    background-color: #D9CC8C;
-    
+    background-color: #D9CC8C;   
 }
 .top-footer {
     grid-area: top-footer;
