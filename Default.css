@@ -1,3 +1,7 @@
+* {
+  list-style:none; 
+  text-decoration: none;
+}
 header {
     grid-area:header;
     background-color: #D9CC8C;
@@ -5,14 +9,12 @@ header {
     text-align: center;
   }
   
-nav {
+nav a {
     grid-area:nav;
-    background-color:#D9CC8C;
     color:white;
+    background-color: #5A2E2E;
     font-family: 'Roboto Slab', serif;
-    text-align: center;
-    list-style:none; 
-    text-decoration: none;
+    
   }
   
 aside {
@@ -27,10 +29,4 @@ main {
     background-color: #D9CC8C;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-  }
-li {
-  list-style:none;
-  color:white; 
-  text-decoration: none;
-  font-family: 'Roboto Slab', serif;
 }
