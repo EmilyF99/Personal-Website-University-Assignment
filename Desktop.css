@@ -20,12 +20,19 @@ nav {
     float:right;
     font-family: 'Roboto Slab', serif;
 }
+.top-footer:hover {
+    background-color: #444;
+}
 li {
     float:left;
     padding: 2em 1.5em 1.75em 1.5em;
     margin: 1em;
     background-color: #5A2E2E;
     box-shadow: 3px 3px 3px 3px #444;
+}
+
+li:hover {
+    background-color: #444;
 }
 aside {
     grid-area: aside;

@@ -12,9 +12,7 @@ header {
 nav a {
     grid-area:nav;
     color:white;
-    background-color: #5A2E2E;
     font-family: 'Roboto Slab', serif;
-    
   }
   
 aside {
