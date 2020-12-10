@@ -1,7 +1,7 @@
 body {
     display: grid;
     grid-template-columns:auto;
-    grid-template-rows: "25% 60%"; 
+    grid-template-rows: "30% 60%"; 
     grid-template-areas: "mobile_top mobile_top"
                          "aside header" 
                          "aside main";
@@ -9,13 +9,13 @@ body {
 }
 
 .mobile_top {
+    grid-area: mobile_top;
     background-color:#5A2E2E;
     height:25vh; 
-    width: 250%
 }
 
 header{
-    width:60vw;
+    grid-area: header;
 }
 
 nav {
@@ -25,11 +25,13 @@ nav {
     display:none;
 }
 aside{
-    width: 40vw;
+    grid-area: aside;
+    height: 100vh;
 }
 
 main{
-    width: 60vw
+    grid-area: main;
+    height: 100vh;
 }
 
 .profile-picture {
@@ -37,3 +39,4 @@ main{
     margin-top: 4em;
     width:150px;
     height:150px;
+}

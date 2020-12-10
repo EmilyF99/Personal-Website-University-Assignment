@@ -1,19 +1,21 @@
 body {
     display: grid;
     grid-template-columns:auto;
-    grid-template-rows: "25% 70%"; 
-    grid-template-areas: "nav top-social"
+    grid-template-rows: "25% 35% 35%"; 
+    grid-template-areas: "nav top-footer"
+                         "aside header"
                          "aside main";
     margin: -0.5em 0 0 0;
 }
 
 nav {
-    height: 21vh;
+    grid-area:nav;
     display:inline;
     background-color: #D9CC8C;
     
 }
 .top-footer {
+    grid-area: top-footer;
     background-color: #5A2E2E;
     color:white;
     float:right;
@@ -27,15 +29,16 @@ li {
     box-shadow: 3px 3px 3px 3px #444;
 }
 aside {
-    height:80vh;
+    grid-area: aside;
     padding-top: 2em;
 }
 
 header{
-    height:20vh;
+    grid-area: header;
 }
 
 main{
+    grid-area: main;
     height:80vh;
     padding-top: 2em;
 }
