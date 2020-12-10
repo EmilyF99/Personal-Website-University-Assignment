@@ -22,17 +22,22 @@ nav {
 }
 .top-footer:hover {
     background-color: #444;
-}
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    }
 li {
     float:left;
     padding: 2em 1.5em 1.75em 1.5em;
     margin: 1em;
     background-color: #5A2E2E;
-    box-shadow: 3px 3px 3px 3px #444;
+    box-shadow: 3px 3px 3px 3px #444; 
 }
 
 li:hover {
     background-color: #444;
+    box-shadow: inset 1px 1px 1px 1px #000000;
+    transition: 0.5s ease-in-out;
+     transform: scale(1.1);
 }
 aside {
     grid-area: aside;
@@ -59,7 +64,6 @@ main{
     margin-top: 4em;
     
 }
-
 .mobile_top {
     display:none;
 }
