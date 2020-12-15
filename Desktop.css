@@ -69,15 +69,45 @@ main {
 }
 .profile-picture {
     clip-path:circle(50%);
-    margin-top: 4em;
+    margin-bottom: 10em;
     width:300px;
     height:300px;
 }
-.pen-picture {
+.laptop-picture {
     clip-path:circle(50%);
     width:200px;
     height:200px;
     
+}
+.email-picture {
+    clip-path:circle(50%);
+    width:200px;
+    height:200px;
+    margin-bottom: 2em;
+}
+
+.linkedIn-picture {
+    clip-path:circle(50%);
+    width:200px;
+    height:200px;
+    }
+
+.retail-picture {
+    clip-path:circle(50%);
+    width:200px;
+    height:200px;
+    }
+
+.scouts-picture {
+    clip-path:circle(50%);
+    width:200px;
+    height:200px;
+    }
+
+.qualification-picture {
+    clip-path:circle(50%);
+    width:200px;
+    height:200px;
 }
 .mobile_top {
     display:none;
