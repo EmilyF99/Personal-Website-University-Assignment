@@ -47,3 +47,10 @@ main {
   font-family: 'Poppins', sans-serif;
   text-align: center;
 }
+
+input {
+  background-color:#5A2E2E;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  padding: 1.5em;
+}
