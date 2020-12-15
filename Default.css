@@ -2,12 +2,6 @@
   list-style:none; 
   text-decoration: none;
 }
-header {
-    grid-area:header;
-    background-color: #D9CC8C;
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-  }
   
 nav a {
     grid-area:nav;
@@ -21,10 +15,35 @@ aside {
    font-family: 'Poppins', sans-serif;
    text-align: center;
   }
+.aside-2 {
+    grid-area:aside-2;
+    background-color: #D9CC8C;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+   }
 
+.aside-3 {
+    grid-area:aside-3;
+    background-color: #D9CC8C;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+   }
 main {
     grid-area:main;
     background-color: #D9CC8C;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+}
+.main-2 {
+  grid-area:main;
+  background-color: #D9CC8C;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.main-3 {
+  grid-area:main;
+  background-color: #D9CC8C;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
