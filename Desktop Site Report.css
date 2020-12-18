@@ -51,4 +51,40 @@ li:hover {
 main {
     grid-area: main;
     padding-top: 2em;
+    padding-left:2em;
+    text-align: left;
 }
+.main-2 {
+    grid-area: main-2;
+    padding-top: 2em;
+    padding-left:2em;
+    text-align: left;
+}
+
+.main-3 {
+    grid-area: main-3;
+    padding-top: 2em;
+    padding-left:2em;
+    text-align: left;
+}
+
+.main-4 {
+    grid-area: main-4;
+    padding-top: 2em;
+    padding-left:2em;
+    text-align: left;
+}
+.main-5 {
+    grid-area: main-5;
+    padding-top: 2em;
+    padding-left:2em;
+    text-align: left;
+}
+
+.main-6 {
+    grid-area: main-6;
+    padding-top: 2em;
+    padding-left:2em;
+    text-align: left;
+}
+
