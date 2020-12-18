@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+nav{
+    display:none;
+}
+nav:target {
+    display: block;
+    position: fixed;
+    background-color: #5A2E2E;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom:5em;
+    font-size: 2em;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+.shownav {
+    height: 1em;
+    width: 5em;
+    display: block;
+    border-top: 0.5em solid white;
+    border-bottom: 0.5em solid white;
+}
+.shownav:before {
+    content:'';
+    position: absolute;
+    width: 5em;
+    top: 3.5em;
+    left: 8px;
+    border-top: 0.5em solid white;
+    display:block;
+}
