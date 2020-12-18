@@ -1,0 +1,52 @@
+/*Grid that is used for all the desktop design*/
+/*Margin is used to correct display as Chrome auto added a margin when grid was implemented */
+body {
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: "auto"; 
+    grid-template-areas: "nav"
+                         "main"
+                         "main-2"
+                         "main-3"
+                         "main-4";
+    margin: -0.5em 0 0 0;
+}
+/*Used to blend in the background of the Nav Bar with the colour of the main and aside */
+nav {
+    grid-area:nav;
+    display:inline;
+    background-color: #D9CC8C;
+    width: 100vw;   
+}
+
+/*li tag is related to the navigation bar */ 
+/*Float left is need to make sure the navigation bar is presented in a row rather than a column */
+/*Padding is applied 1.75em on left and right and 1.5em to top and bottom */
+/*sets background colour and addes a shadow to the outside of this*/
+li {
+    float:left;
+    padding: 1.75em 1.5em 1.75em 1.5em;
+    margin: 1em;
+    background-color: #5A2E2E;
+    box-shadow: 3px 3px 3px 3px #444; 
+}
+/*When hovered on a nav item the colour changes of both the box and the shadow*/
+/*Animation works the same as the one on the top footer */
+li:hover {
+    background-color: #444;
+    box-shadow: inset 1px 1px 1px 1px #000000;
+    transition: 0.5s ease-in-out;
+     transform: scale(1.1);
+}
+.mobile_top {
+    display:none;
+}
+
+.top-footer{
+    display:none;
+}
+
+main {
+    grid-area: main;
+    padding-top: 2em;
+}
