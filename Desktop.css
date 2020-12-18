@@ -1,3 +1,5 @@
+/*Grid that is used for all the desktop design*/
+/*Margin is used to correct display as Chrome auto added a margin when grid was implemented */
 body {
     display: grid;
     grid-template-columns:auto;
@@ -9,38 +11,48 @@ body {
                          "aside-4 main-4";
     margin: -0.5em 0 0 0;
 }
-
+/*Used to blend in the background of the Nav Bar with the colour of the main and aside */
 nav {
     grid-area:nav;
     display:inline;
     background-color: #D9CC8C;   
 }
+/*Displays the extra box on the right of the nav bar */
+/*Sets background colour, font colour, font*/
 .top-footer {
     grid-area: top-footer;
     background-color: #5A2E2E;
     color:white;
-    float:right;
     font-family: 'Roboto Slab', serif;
 }
+/*When cursor is hovered over the box changes to the box occur, the colour changes to gray, 
+transform changes the size of the box and transition animates this so it 'grows' to size rather than suddenly changes*/
 .top-footer:hover {
     background-color: #444;
     transition: 0.5s ease-in-out;
     transform: scale(1.1);
-    }
+}
+/*li tag is related to the navigation bar */ 
+/*Float left is need to make sure the navigation bar is presented in a row rather than a column */
+/*Padding is applied 1.75em on left and right and 1.5em to top and bottom */
+/*sets background colour and addes a shadow to the outside of this*/
 li {
     float:left;
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 1.75em 1.5em 1.75em 1.5em;
     margin: 1em;
     background-color: #5A2E2E;
     box-shadow: 3px 3px 3px 3px #444; 
 }
-
+/*When hovered on a nav item the colour changes of both the box and the shadow*/
+/*Animation works the same as the one on the top footer */
 li:hover {
     background-color: #444;
     box-shadow: inset 1px 1px 1px 1px #000000;
     transition: 0.5s ease-in-out;
      transform: scale(1.1);
 }
+/*Asigns area for each part of the Grid,
+gives padding to the top of each picture to stop them being too close together which would not look as nice */
 aside {
     grid-area: aside;
     padding-top: 2em;
@@ -59,7 +71,8 @@ aside {
     grid-area: aside-4;
     padding-top: 2em;
 }
-
+/*Asigns area for each part of the Grid,
+gives padding to the top of each piece of text to stop them being too close together which would not look as nice */
 main {
     grid-area: main;
     padding-top: 2em;
@@ -77,11 +90,15 @@ main {
     grid-area: main-4;
     padding-top: 2em;
 }
+/*All pictures that are used on the website,
+Clip-path turns all the rectangle photos into circles
+Sizes asigned in terms of pixels */
 .profile-picture {
     clip-path:circle(50%);
-    margin-bottom: 10em;
     width:300px;
     height:300px;
+    margin-bottom: 10em; /*Used to extend page size to the bottom of the screen, 
+                        will need to be changed or deleted if adding content */
 }
 .laptop-picture {
     clip-path:circle(50%);
@@ -93,7 +110,8 @@ main {
     clip-path:circle(50%);
     width:200px;
     height:200px;
-    margin-bottom: 2em;
+    margin-bottom: 2em; /*Used to extend page size to the bottom of the screen, 
+                        will need to be changed or deleted if adding content */
 }
 
 .linkedIn-picture {
@@ -119,6 +137,7 @@ main {
     width:200px;
     height:200px;
 }
+/*This is not used on the Desktop part of the site*/
 .mobile_top {
     display:none;
 }
