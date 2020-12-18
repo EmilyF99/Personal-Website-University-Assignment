@@ -1,14 +1,19 @@
+/*Wild card is being used to set any default CSS to 0 */
 * {
   list-style:none; 
   text-decoration: none;
 }
-  
+
+/* Assigns to grid with the text nav*/
+/*Sets font to white and changes font */
 nav a {
     grid-area:nav;
     color:white;
     font-family: 'Roboto Slab', serif;
   }
-  
+
+/*Aside is used for the left half of the main content, mainly image based*/
+/*Sets the background colour, alignment and font if needed*/
 aside {
    grid-area:aside;
    background-color: #D9CC8C;
@@ -36,6 +41,8 @@ aside {
     text-align: center;
    }
 
+/*Main is used for the right side of the main content, mainly text based */
+/*Sets the background colour, alignment and font*/
 main {
     grid-area:main;
     background-color: #D9CC8C;
@@ -62,6 +69,8 @@ main {
   font-family: 'Poppins', sans-serif;
   text-align: center;
 }
+/*Used to style the form input on the contact page*/
+/*Sets the background color, font colour, font style as well as adding padding to make the form button larger */
 input {
   background-color:#5A2E2E;
   color:white;
