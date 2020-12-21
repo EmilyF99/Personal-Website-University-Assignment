@@ -52,34 +52,40 @@ main {
     grid-area: main;
     text-align: left;
     padding-left:1em;
+    padding-right:1em;
 }
 .main-2 {
     grid-area: main-2;
     text-align: left;
     padding-left:1em;
+    padding-right:1em;
 }
 
 .main-3 {
     grid-area: main-3;
     text-align: left;
     padding-left:1em;
+    padding-right:1em;
 }
 
 .main-4 {
     grid-area: main-4;
     text-align: left;
     padding-left:1em;
+    padding-right:1em;
 }
 .main-5 {
     grid-area: main-5;
     text-align: left;
     padding-left:1em;
+    padding-right:1em;
 }
 
 .main-6 {
     grid-area: main-6;
     text-align: left;
     padding-left:1em;
+    padding-right:1em;
 }
  p {
     padding-top: 3em;
