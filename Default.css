@@ -81,6 +81,18 @@ main {
   font-family: 'Poppins', sans-serif;
   text-align: center;
 }
+.main-7 {
+  grid-area:main-6;
+  background-color: #D9CC8C;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+.main-8 {
+  grid-area:main-6;
+  background-color: #D9CC8C;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
 .references {
   grid-area:references;
   background-color: #D9CC8C;
