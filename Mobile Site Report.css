@@ -10,7 +10,8 @@ body {
                          "main-3"
                          "main-4"
                          "main-5"
-                         "main-6";
+                         "main-6"
+                         "main-7";
     margin: -0.5em 0 0 0;
 }
 /*Hidden when the site first loads, displays on a toggle*/
@@ -63,46 +64,160 @@ nav:target {
 
 main {
     grid-area: main;
-    padding-top: 2em;
-    padding-left:2em;
-    padding-right:2em;
     text-align: left;
+    width: 100vw;
 }
 .main-2 {
     grid-area: main-2;
-    padding-top: 2em;
-    padding-left:2em;
-    padding-right:2em;
     text-align: left;
+    width: 100vw;
 }
 
 .main-3 {
     grid-area: main-3;
-    padding-top: 2em;
-    padding-left:2em;
-    padding-right:2em;
     text-align: left;
+    width: 100vw;
 }
 
 .main-4 {
     grid-area: main-4;
-    padding-top: 2em;
-    padding-left:2em;
-    padding-right:2em;
     text-align: left;
+    width: 100vw;
 }
 .main-5 {
     grid-area: main-5;
-    padding-top: 2em;
-    padding-left:2em;
-    padding-right:2em;
     text-align: left;
+    width: 100vw;
 }
 
 .main-6 {
     grid-area: main-6;
-    padding-top: 2em;
-    padding-left:2em;
-    padding-right:2em;
     text-align: left;
+    width: 100vw;
+}
+.main-7 {
+    grid-area: main-7;
+    text-align: left;
+    width: 100vw;
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 25px;
+}
+
+h3 {
+    padding-left: 15px;
+    padding-right: 25px;
+}
+h4{
+    padding-left: 15px;
+    padding-right: 25px;
+}
+.GoDaddy-example {
+    width: 425px;
+    height: 375px;
+}
+
+.Wix-example1 {
+    width: 450px;
+    height: 350px;  
+}
+
+.Wix-example2 {
+    width: 200px;
+    height: 350px;
+}
+.Wix-example3{
+    width: 200px;
+    height: 350px;
+}
+
+.SquareSpace-example1{
+    width: 450px;
+    height: 350px;
+}
+.SquareSpace-example2 {
+    width: 200px;
+    height: 350px;
+}
+.SquareSpace-example3 {
+    width: 200px;
+    height: 350px;
+}
+.portfolio-desktop-main {
+    width: 450px;
+    height: 350px;
+}
+.portfolio-mobile-main {
+    width: 200px;
+    height: 350px;
+}
+.portfolio-desktop-menu {
+    width: 450px;
+    height: 350px;
+}
+.wireframe-D-1 {
+    width: 500px;
+    height: 350px;
+}
+.wireframe-D-2 {
+    width: 500px;
+    height: 350px;
+}
+.wireframe-D-3 {
+    width: 500px;
+    height: 350px;
+}
+.wireframe-M-1 {
+    width: 500px;
+    height: 350px;
+}
+.wireframe-M-2 {
+    width: 500px;
+    height: 350px;
+}
+.wireframe-M-3 {
+    width: 500px;
+    height: 350px;
+}
+.final-wireframe1 {
+    width: 525px;
+    height: 350px;
+}
+.final-wireframe2 {
+    width: 525px;
+    height: 350px;
+}
+.final-wireframe3 {
+    width: 300px;
+    height: 350px;
+}
+.final-wireframe4 {
+    width: 300px;
+    height: 350px;
+}
+.colour-pallete-1 {
+    width: 500px;
+    height: 350px;
+}
+.colour-pallete-2 {
+    width: 500px;
+    height: 350px;
+}
+.wireframe-eval1 {
+    width: 500px;
+    height: 350px;
+}
+.wireframe-eval2 {
+    width: 250px;
+    height: 350px;
+}
+.final-design1 {
+    width: 500px;
+    height: 350px;
+}
+.final-design2 {
+    width: 250px;
+    height: 350px;
 }

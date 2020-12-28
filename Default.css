@@ -81,6 +81,11 @@ main {
   font-family: 'Poppins', sans-serif;
   text-align: center;
 }
+.main-7 {
+  grid-area:main-7;
+  background-color: #D9CC8C;
+  text-align: center;
+}
 
 /*Used to style the form input on the contact page*/
 /*Sets the background color, font colour, font style as well as adding padding to make the form button larger */

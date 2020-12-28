@@ -10,7 +10,8 @@ body {
                          "main-3"
                          "main-4"
                          "main-5"
-                         "main-6";
+                         "main-6"
+                         "main-7";
     margin: -0.5em 0 0 0;
 }
 /*Used to blend in the background of the Nav Bar with the colour of the main and aside */
@@ -51,43 +52,162 @@ li:hover {
 main {
     grid-area: main;
     text-align: left;
-    padding-left:1em;
-    padding-right:1em;
+    width: 100vw;
+    
 }
 .main-2 {
     grid-area: main-2;
     text-align: left;
-    padding-left:1em;
-    padding-right:1em;
+    width: 100vw;
+   
 }
 
 .main-3 {
     grid-area: main-3;
     text-align: left;
-    padding-left:1em;
-    padding-right:1em;
+    width: 100vw;
+   
 }
 
 .main-4 {
     grid-area: main-4;
     text-align: left;
-    padding-left:1em;
-    padding-right:1em;
+    width: 100vw;
 }
 .main-5 {
     grid-area: main-5;
     text-align: left;
-    padding-left:1em;
-    padding-right:1em;
+    width: 100vw;
 }
 
 .main-6 {
     grid-area: main-6;
     text-align: left;
-    padding-left:1em;
-    padding-right:1em;
+    width: 100vw;
 }
- p {
-    padding-top: 3em;
- }
-  
+.main-7 {
+    grid-area: main-6;
+    text-align: left;
+    width: 100vw;
+
+}
+p {
+    padding-left: 15px;
+    padding-right: 25px;
+}
+
+h3 {
+    padding-left: 15px;
+    padding-right: 25px;
+}
+h4{
+    padding-left: 15px;
+    padding-right: 25px;
+}
+.GoDaddy-example {
+    width: 450px;
+    height: 400px;
+}
+
+.Wix-example1 {
+    width: 500px;
+    height: 350px;  
+}
+
+.Wix-example2 {
+    width: 250px;
+    height: 350px;
+}
+.Wix-example3{
+    width: 250px;
+    height: 350px;
+}
+
+.SquareSpace-example1{
+    width: 500px;
+    height: 350px;
+}
+.SquareSpace-example2 {
+    width: 250px;
+    height: 350px;
+}
+.SquareSpace-example3 {
+    width: 250px;
+    height: 350px;
+}
+.portfolio-desktop-main {
+    width: 500px;
+    height: 350px;
+}
+.portfolio-mobile-main {
+    width: 250px;
+    height: 350px;
+}
+.portfolio-desktop-menu {
+    width: 500px;
+    height: 350px;
+}
+.wireframe-D-1 {
+    width: 525px;
+    height: 350px;
+}
+.wireframe-D-2 {
+    width: 525px;
+    height: 350px;
+}
+.wireframe-D-3 {
+    width: 525px;
+    height: 350px;
+}
+.wireframe-M-1 {
+    width: 525px;
+    height: 350px;
+}
+.wireframe-M-2 {
+    width: 525px;
+    height: 350px;
+}
+.wireframe-M-3 {
+    width: 525px;
+    height: 350px;
+}
+.final-wireframe1 {
+    width: 525px;
+    height: 350px;
+}
+.final-wireframe2 {
+    width: 525px;
+    height: 350px;
+}
+.final-wireframe3 {
+    width: 325px;
+    height: 350px;
+}
+.final-wireframe4 {
+    width: 325px;
+    height: 350px;
+}
+.colour-pallete-1 {
+    width: 525px;
+    height: 350px;
+}
+.colour-pallete-2 {
+    width: 525px;
+    height: 350px;
+}
+.wireframe-eval1 {
+    width: 525px;
+    height: 350px;
+}
+.wireframe-eval2 {
+    width: 250px;
+    height: 350px;
+}
+.final-design1 {
+    width: 525px;
+    height: 350px;
+}
+.final-design2 {
+    width: 250px;
+    height: 350px;
+}
