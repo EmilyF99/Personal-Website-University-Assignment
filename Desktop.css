@@ -51,43 +51,33 @@ li:hover {
     transition: 0.5s ease-in-out;
      transform: scale(1.1);
 }
-/*Asigns area for each part of the Grid,
-gives padding to the top of each picture to stop them being too close together which would not look as nice */
+/*gives padding to the top of each picture to stop them being too close together which would not look as nice */
 aside {
-    grid-area: aside;
     padding-top: 2em;
 }
 
 .aside-2 {
-    grid-area: aside-2;
     padding-top: 2em;
 }
 
 .aside-3 {
-    grid-area: aside-3;
     padding-top: 2em;
 }
 .aside-4 {
-    grid-area: aside-4;
     padding-top: 2em;
 }
-/*Asigns area for each part of the Grid,
-gives padding to the top of each piece of text to stop them being too close together which would not look as nice */
+/*gives padding to the top of each piece of text to stop them being too close together which would not look as nice */
 main {
-    grid-area: main;
     padding-top: 2em;
 }
 .main-2 {
-    grid-area: main-2;
     padding-top: 2em;
 }
 .main-3 {
-    grid-area: main-3;
     padding-top: 2em;
 }
 
 .main-4 {
-    grid-area: main-4;
     padding-top: 2em;
 }
 /*All pictures that are used on the website,

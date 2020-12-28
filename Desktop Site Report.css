@@ -52,53 +52,41 @@ li:hover {
 }
 
 main {
-    grid-area: main;
     text-align: left;
-    width: 100vw;
-    
+    width: 100vw; 
 }
 .main-2 {
-    grid-area: main-2;
     text-align: left;
     width: 100vw;
-   
 }
 
 .main-3 {
-    grid-area: main-3;
     text-align: left;
     width: 100vw;
-   
 }
 
 .main-4 {
-    grid-area: main-4;
     text-align: left;
     width: 100vw;
 }
 .main-5 {
-    grid-area: main-5;
     text-align: left;
     width: 100vw;
 }
 
 .main-6 {
-    grid-area: main-6;
     text-align: left;
     width: 100vw;
 }
 .main-7 {
-    grid-area: main-7;
     text-align: left;
     width: 100vw;
 }
 .main-8 {
-    grid-area: main-8;
     text-align: left;
     width: 100vw;
 }
 .references {
-    grid-area: references;
     text-align: left;
     width: 100vw;
 
