@@ -81,8 +81,8 @@ main {
   font-family: 'Poppins', sans-serif;
   text-align: center;
 }
-.main-7 {
-  grid-area:main-7;
+.references {
+  grid-area:references;
   background-color: #D9CC8C;
   text-align: center;
 }

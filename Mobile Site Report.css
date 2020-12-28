@@ -11,7 +11,8 @@ body {
                          "main-4"
                          "main-5"
                          "main-6"
-                         "main-7";
+                         "main-7"
+                         "references";
     margin: -0.5em 0 0 0;
 }
 /*Hidden when the site first loads, displays on a toggle*/
@@ -100,7 +101,11 @@ main {
     text-align: left;
     width: 100vw;
 }
-
+.references {
+    grid-area: references;
+    text-align: left;
+    width: 100vw;
+}
 p {
     padding-left: 15px;
     padding-right: 25px;
