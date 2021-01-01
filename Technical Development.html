@@ -37,41 +37,124 @@
                 
             </main>
             <div class="main-2">
-                <h4>Inital Page Creation</h4>
+                <h3>Inital Page Creation</h3>
                 <h4>Written 29/12/2020</h4>
+                <h4>Code written 09/11/2020</h4>
                 <p>The very first thing I did when making the site was to create all the pages I need and add the skeleton HTML to the site. The skeleton is everything that is needed on a HTML file everytime you create one.</p>
                 <img src="Code Morphology\HTML Skeleton 1.png" class="HTMLSkeleton1" alt="Screenshot of HTML Skeleton 1">
                 <img src="Code Morphology\HTML Skeleton 2.png" class="HTMLSkeleton2" alt="Screenshot of HTML Skeleton 2">
                 <p>To start my code I added the basic sections that my site must have, these were the doctype tag, html tag, head tag and body tag. These are a must so I did a commit after this step to ensure that I had a base saved. On my next commit I added additional essential information to the HTML. Such as the charset and the language options, these are set on a default, however they are important to add in case the users browser assumes a different default and as a result my page displays incorrectly.</p>
+                <h4>Code written 27/11/2020</h4>
                 <img src="Code Morphology\HTML Skeleton 3.png" class="HTMLSkeleton3" alt="Screenshot of HTML Skeleton 3">
                 <p>In screen shot three code has been added to make the beginnings of my website. Important areas were marked with placholder text to help me create the static layout. Adding the text to sections allows me to see where exactly that section is going to be drawn and how the text displays. I also created a list of all my initial pages needed so I could start to create a navigation bar. I also added links below the sites title. These links are stylesheets and are directly connected to my CSS pages, of which they are three. There is the default CSS which applies CSS that is consistent across both mobile and desktop layouts, such as colours. The other two CSS files are mobile and desktop. These have sizes assigned to them so the users browser knows which version of the site to display. With the min and max width attribute the site changes side once it reachers over eight hundred pixels. Once over this number the site will display the CSS for desktop and under this number it will display the mobile site.This number was selected to accomdate for the largest of mobile phones and for small tablets. </p>
                 <img src="Code Morphology\HTML Skeleton 4.png" class="HTMLSkeleton4" alt="Screenshot of HTML Skeleton 4">
-                <p>In my fourth screen shot there is a different skeleton CSS full of placeholders. This was because I wanted to focus on getting the static layout of my site working completely on one page rather than all at once. This is a more efficent way of working as once you've got one page to your liking you can copy the code from on page to another to have two pages that work correctly. If I made all the pages at the same time then everytime I changed a line of code on one then I would have to change it on the other four pages, this would make the pages take much longer to complete. Therefore this layout was created to ensure when I was testing the navigation bar later on I could see where the navigation bar was directing to.</p>
+                <p>In my fourth screen shot there is a different skeleton HTML full of placeholders. This was because I wanted to focus on getting the static layout of my site working completely on one page rather than all at once. This is a more efficent way of working as once you've got one page to your liking you can copy the code from on page to another to have two pages that work correctly. If I made all the pages at the same time then everytime I changed a line of code on one then I would have to change it on the other four pages, this would make the pages take much longer to complete. Therefore this layout was created to ensure when I was testing the navigation bar later on I could see where the navigation bar was directing to.</p>
                 <img src="Code Morphology\HTML Skeleton Site 1.png" class="SkeletonSite1" alt="What my index page looks like after this step">
                 <p>The code from screen shot three results in my index page looking like this</p>
                 <img src="Code Morphology\HTML Skeleton Site 2.png" class="SkeletonSite2" alt="What the rest of my pages look like after this step">
                 <p>The code from screen shot four results in my other pages looking like this</p>
             </div>
             <div class="main-3">
-                <h4>Developing Static Layouts</h4>
-                
+                <h3>Developing Static Layouts</h3>
+                <h4>Written 30/12/2020</h4>
+                <h4>Code written 27/11/2020</h4>
+                <p>I started my static layout by making three CSS stylesheets. These stylesheets all have the same name as the homepage links.</p>
+                <img src="Code Morphology\CSS Default Skeleton.png" class="CSSDefaultSkeleton" alt="Starting default CSS skeleton">
+                <p>I started first with the default CSS stylesheet, on this stylesheet I added grid areas and the default colours for the page. The default page has this information because the grid areas and colours are consistent across all the pages. Putting them into default CSS means this code does not have to be repeated into both the mobile and desktop CSS. If I just had two stylesheets there would be a lot of repeated code.</p>
+                <img src="Code Morphology\CSS Desktop Skeleton.png" class="CSSDesktopSkeleton" alt="Starting Desktop CSS skeleton">
+                <img src="Code Morphology\CSS Mobile.png" class="CSSMobileSkeleton" alt="Starting Mobile CSS skeleton">
+                <p>I then started adding a grid layout to my site. A grid layout allows for a responsive design that changes depending on the users window size, grid layout also makes aligning page elements easier as you don't have to position each element individually. I have used HTML sections rather than classes to start with, this is to make the site up to current HTML5 standards (citation needed). It is important to note that at this stage this commit does not have the correct code in it. My grid code is correct however I have added CSS to size the elements individually. This would override the grid layout and result in my grid not being drawn correctly. You can see the effect of this because my grid sizes do not look like the correct percentages to draw a design like in my wireframe. There is also a problem with the units that are used on the heights and widths. The header in the first set of code has a percentage and a view width assigned to it, which is not correct and can result in different sizings. </p>
+                <p>The mobile top part of the code is a new class, this is a seperate class to make it easy to understand what it does. This class is used to draw the top marroon box that is used to hold the burger menu on the mobile site. On the desktop site this is set to display none as it is not used on that version of the site. </p>
+                <h4>Code written 02/12/2020</h4>
+                <img src="Code Morphology\HTML Index page 2nd December.png" class="Indexpage0212-1" alt="Adding the sub-navigation bar">
+                <p>In my original design there was a sub-navigation bar, in this stage I added the text for this. I also added the empty href links for this. These will be used to link all the other sites pages to each other and create a working navigation bar for the desktop site.  </p>
+                <img src="Code Morphology\HTML Index page 2nd December part two.png" class="Indexpage0212-2" alt="Replacing placeholders on Index page">
+                <p>After this step I removed the placeholder text from the index page. I then replaced this with the final content I wanted on the site. I then added a incomplete image link to the site with the alt text set. Originally I had teh height and width set in the HTML, later on this will be removed and the sizing will be changed to the CSS. This is because I required different sizes for both the mobile and the desktop site.</p>
+                <img src="Code Morphology\HTML Index page 2nd December part three .png" class="Indexpage0212-3" alt="Linking additional pages to the navigation bar">
+                <p>Then I went back to the navigation bar and added the relative links to the other pages. These relative links mean that when the text on the link is clicked the user will be taken to that page.</p>
+                <img src="Code Morphology\Desktop CSS 2nd of december .png" class="desktopCSS0212" alt="Removing the header section from CSS">
+                <p>Originally I had the titles in a seperate section for the page. However this became complicated and redudant. Instead of this I replaced the header section by just using head tags instead as I found this easier to work with, especially considering I would need multiple header sections.As I was no longer using the header tags I removed them from the HTML and CSS as shown in this screenshot.</p>
+                <img src="Code Morphology\Site Display 0212.png" class="siteDisplay0212" alt="How my site looked on the second of December">
+                <p>My site at this point in time does not display properly. However at this stage in time that was not my intention. My intention at this point in time was to get some of the basic CSS down to see whether my site was linked together correctly and whether the CSS I had added at that moment was correct and adding something to the site.</p>
+                <p>The issues with this page currently are with the navigation menu. Currently the aside draws in the correct place but the navigation draws as one complete marroon bar across the top with blocks of the submenu appearing underneath. At the moment my navigation bar is displaying vertically rather than horizontally.</p>
+                <h4>Code written 03/12/2020</h4>
+                <img src="Code Morphology\HTML Index page 3rd December.png" class="Indexpage0312-1" alt="Adding the font to the webpage">
+                <p>Next I added the Google Fonts links to the top of the Index page where the rst of the stylesheets are located. This code is not my own and was copied from the links that Google Fonts provides.</p>
+                <img src="Code Morphology\HTML Index page 3rd December part two.png" class="Indexpage0312-2" alt="Commenting out the submenu">
+                <p>After this stage I considered my submenu, I commented out the submenu as I was considering whether I really needed a submenu on my site. Evenutally I would decide that I don't need a submenu. This was because the contents of my pages are self-explanatory so the submenu was not adding any additional content to the site and would result in it looking a little more cluttered. </p>
+                <img src="Code Morphology\HTML Index page 3rd December part three.png" class="Indexpage0312-3" alt="Added more text and image link to Index page">
+                <p>After this point I added the image link for my picture as well as assigning it a class so that I could add CSS to it. At this point in time I have still not removed the sizing from the HTML so this code is not correct at the momement.</p>
+                <p>Not a lot of HTML was changed at this stage, this was because my focus at this stage was to get the site to look like my wireframe, therefore most of the changes at this stage were to the sites CSS.                                   </p>
+                <img src="Code Morphology\Default Css December 3rd.png" class="defaultCSS0312" alt="Changes to the default CSS on the 3rd of December">
+                <img src="Code Morphology\CSS Default Site Display December 3rd.png" class="siteDisplay0312" alt="How my site looked after updating the default CSS">
+                <p>On the default CSS one of the biggest changes was applying the Google Fonts I had selected to the sections I have made.The CSS for this was provided by Google Fonts. I then realigned each section to have the text in each one centred as a default as I thought this would suit my site design.THe navigation bar default code is split into two parts, the nav section and teh li section. The nav section has incorrect code in it, this section has code that should be in the li section instead, such as list-style: none; and text-decoration:none;. This code is in the wrong place as the nav tag does not have the text for the navigation bar inside it. That is stored in the li tag. The li tag has the same code in it as the nav tag as well as the colour white assigned to it. This is because black text would not show up well on the marroon colour.</p>
+                <p>I fixed a few issues with my code at this stage. My grid  area for the main section was incorrect on my old CSS. On this update I changed this to the correct title which will help to fix my problems I was having with grid. I had the CSS for the main asigned to the grid area aside. This would result in nothing being applied to the main section and two lots of code being applied to the CSS. This explained why on my last screen shot why the aside was showing and the main section was not. I also changed the background colour of the nav section. Originally this was a marroon colour. However this would result in the whole of the navigation bar being a marroon section, like in the previous commit. Rather than have cream in the background and the marroon colour only surrounding the list elements.</p>
+                <p>The screenshow next to it shows what effect the default CSS changes have had on the site.</p>
+                <img src="Code Morphology\Desktop CSS 3rd december.png" class="desktopCSS0312" alt="Changes made on my desktop CSS for the 3rd of December">
+                <img src="Code Morphology\Desktop CSS 3rd december part two.png" class="desktopCSS0312-2" alt="Changes made on my desktop CSS for the 3rd of December">
+                <img src="Code Morphology\CSS Desktop Site Display December 3rd.png" class="desktopsitedisplay0312" alt="How my site looks with teh changes to my CSS.">
+                <p>Next I altered the desktop CSS. I first altered my grid again. I noticed the percentages I used did not add up to 100%, this could result in my page overhanging and needing a horizontal scroll bar which would look clumsy and not be user friendly. I then added a negative margin in the body tag. This was to fix a problem I was having with the border of my website. There was a white bar on the top and to the left of my site. I', sure the negative margin approach is probably not the best way to tackle this problem but for now acts as a quick fix. I also added a height to the main and aside section. However this would later be removed as it contradicts the grid code I added. I then added a 2em  padding to the top of the main and aside section. The padding was added to seperate elements on the page to make the site easier to read and give break points for the user when they are reading the site.  </p>
+                <p>Next I started working on my navigation bar. In the nav tag I added display-inline:block;. Then in my li element I added a float left. This will seperate the list items and get them to display in a horizontal line. I then added padding around each li element. This will result in a marroon box being draw around each piece of text. this will act as a navigation button. I then added a margin of 1em to the li elements. This results in the li elements being seperated from each other. This makes it clear where each navigation bar button ends so there is not the risk of the user miss-clicking on the wrong part of the nav bar and then being confused on where the link has taken them. Lastly I then added a box shadow to the li elements. This results in a grey shadow being added to each side of the box, this helps it stand out from the page. The box shadows was sourced from this book...(citation needed)</p>
+                <p>The last changed added to this site was to make the picture round. This looks a little more refined than a square picture with no effects on it. This was sourced from this book..(insert citation).</p>
+                <p>The screenshot next to the code shows how this code has effected the site.</p>
+                <h4>Code written 10/12/2020</h4>
+                <img src="Code Morphology\HTML Index page 1012.png" class="Indexpage1012" alt="Changes to Index page 10th December">
+                <p>At this point in time I felt like the top of my site looked a little empty and uninteresting. In order to combat this I added an extra box that acts like a footer next to my nav bar. I did not think the footer section would have been a good label to give this as a traditional footer appears at the bottom of the screen, there I made a custom class for this. </p>
+                <img src="Code Morphology\CV Page 1012.png" class="CV1012" alt="Adding Content to my CV page">
+                <p>Happy with progress I was making with my index page I then copied across to code from that page and added the content I wanted for that page. I also added a placeholder image to that page to help me with positioning later.</p>
+                <img src="Code Morphology\Default CSS 1012.png" class="defaultCSS1012" alt="Default CSS changes made on the 10th of December">
+                <p>On my default CSS I added a wild card (*) to my code, this sets the page styling to a default. The reason I added this wildcard is not only is it good practice but it also removes the hyperlinked appearance of my navigation bar, which I was having trouble removing, as well as trying to remedy the problem I had with the margins of the site.</p>
+                <img src="Code Morphology\Desktop CSS 1012.png" class="desktopCSS1012" alt="Desktop CSS changes made on the 10th of December">
+                <p>I then adjusted my grid again, this time I set the columns to auto as I felt this would improve the responsiveness of the website. I then adjusted the template areas to include the new top footer I had created. However my code at this stage was incorrect, my class has a different name to the one included in the grid, therefore the grid would not be able to add the footer.</p>
+                <p>I then adjusted the padding under the li element to accomdate for the new top footer that was added. I made the padding gap smaller so the elements were closer together as the original padding resulted in navigation bar boxes being pushed onto the next line.</p>
+                <img src="Code Morphology\Desktop CSS 1012 part 2.png" class="desktopCSS1012-2" alt="Desktop CSS changes made on the 10th of December">
+                <p>Lastly I then added the new picture to the CSS, the code for the majority of the pictures at this and later stages is the same so to avoid reptition, from this point onwards I will not be including each image edition unless code has changed.</p>
+                <img src="Code Morphology\Default CSS 1012 code set 2 .png" class="defaultCSS1012-2" alt="Second set of changes to the default CSS from December 10th">
+                <p>I then reviewed the code that I wrote that day. In my default CSS I then changed my minus margin from earlier. the edition of a wild card meant that there was now only a gap on the left rather than on the top and left. I changed it so now only the minus margin is applied on the left. I didn't want to apply it to all sides in case it resulted in content being cut off the screen.</p>
+                <p>I then took my sizes for my image out of the HTML file and adjusted the sizing using CSS instead.I would do this instead for all images from this point onwards.</p>
+                <img src="Code Morphology\Mobile CSS 1012.png" class="mobileCSS1012" alt="Started Mobile Static Layout 10th of December">
+                <p>I then started making the grid layout for my mobile version of the site. Some of my code is broken within this screenshot. I have redudant code as there is still a header tag present which is not used in the final design. At this point I couldn't figure out why my mobile top bar was not appearing. I tried to comabt this by making the size of the mobile top bar to an extremely larger percentage to see if I could get it draw. Later I realised this was becase I had not assigned a grid area to the mobile top clss so it would not be able to find it and add it to the grid. There was still problems with my grid at this point as I still had sizes set that would override the grid.</p>
+                <p>I then set the top footer to display none, this is because this is not used on the mobile version of the site.</p>
+                <img src="Code Morphology\Desktop Grid Fix 1012.png" class="desktopCCS1012-3" alt="Trying to fix the grid layout on Desktop CSS">
+                <img src="Code Morphology\Mobile fixing grid 1012.png" class="mobileCSSS1012-2" alt="Trying to fix the grid layout on Mobile CSS">
+                <p>I then focused on fixing my grid for both version of my sites as I identified this as being the reason my layout was not working as intended. In order to fix part of my grid i removed the hheight on the desktop CSS. Interstingly I did not do this one the mobile css, so the mobile grid at this point would still not work as intended due to the code contrasting. Then I added grid areas to noththe mobile and desktop CSS. This was not tneeded as I had already asigned grid areas to the default CSS. However at the time I did not think of this. These grid areas would evenutually be removed due to the code being redundant.</p>
+                <p>In the Desktop CSS i added CSS to make the top fotter display correclty. This involved floating it right so that it is drawn from the right and there is no chance of a gap being on the right betweenthe box and the end of the page. I then fixed the grid area name assigned to it, therefore it will now be added to the grid.</p>
+                <img src="Code Morphology\Desktop CSS removed sub menu 1012.png" class="desktopCSS1012-4" alt="Removing the commented sub-menu">
+                <p>Lastly in this stage, I decided that I definetly was not going to have a sub-menu on my website, as discussed earlier, therefore I removed commented out sub-menu.</p>
+                <img src="Code Morphology\Site Display 1012.png" class="siteDisplay1012" alt="The finalised static display for my desktop site">
+                <p> After the above changes, my websites desktop static display was complete and looked like this.</p>
+                <img src="Code Morphology\Mobile site display 1012.png" class="mobileDisplay1012" alt="The finalised mobile display for my site">
+                <p>This is what my mobile site looks like with the above code changes applied to it. There is still a placeholder where the burger menu will be drawn. However at the time I did not do this yet as I wanted to do the mobile navigation all in one session.</p>
             </div>
             <div class="main-4">
-                <h4>Grid Development</h4>
+                <h3>Grid Development</h3>
+                <h4>Written 01/01/2021 </h4>
+                <p>Overtime my grid layout changed from the code demonstrated above. This was because as my site became larger I decided to seperate my text into sections to make it easier to read and understand my code.</p>
+                <p>The first thing I had to overcome was how to section my website. I had used standard section tags like main and aside for the original grid. Howevver I was not aware of any additional versions of this for if I had more than main or aside. I dedcided I was going to use classes for my next sections. To keep them relevant to the sections I already used I named them numbercially. So instead of main there was now a new class called main-2 that goes directly undeneath main. </p>
+                <h4>Coded Written 15/12/2020</h4>
+                <img src="Code Morphology\CSS Default Adding to the grid 1512.png" class="defaultCSS1512" alt="Creating new Grid Sections">
+                <img src="Code Morphology\CSS Desktop 1512.png" class="desktopCSS1512" alt="Altering the Desktop Grid to accomodate the new Grid Areas">
+                <p>The first time I added extra rows to my code was on the 15th of December, the code above shows how I implemented these extra sections into the default CSS before adding them to the grid. THe second screenshow shows how I ammended the grid layout to get these new sections to display.</p>
+                <p>Overtime my grid expanded again to accomdate new content. Including the site report this meant I ended up with nine total sections (one main and eight custom classes).</p>
+                <p>I feel like the way I have used grid method was effective and has resulted in a site that is easy to understand in terms of its layout and its code. I feel like the way I have coded my grid means that it is very easy to add new sections to my page that will work as soon as they are added without difficulty. I am pleased with this as this has future proofed my site and means I can come back to my site and add work to it at a later date without being confused how to.</p>
+                <p>I feel like there is probabaly a better way to split my site into more sections that the way I have done it, however I could not find any easy answers on how to split my site and I feel like a lot of that is due to their being lots of solutions, with no defintive right answer.</p>
             </div>
             <div class="main-5">
-                <h4>Animations Development</h4>  
+                <h3>Animations Development</h3> 
+                <h4>Written 01/01/2021</h4>
+                <h4>Code Written 10/12/2020</h4>
+                <p>After completing my static layout I started to consider</p> 
             </div>
             <div class="main-6">
-                <h4>Form and styling development</h4>
+                <h3>Form development and styling</h3>
             </div>
 
             <div class="main-7">
-                <h4>Mobile Navigation</h4>
+                <h3>Mobile Navigation</h3>
             </div>
 
             <div class="main-8">
-                <h4>Comments and Code Fixes</h4>
+                <h3>Comments, Code Fixes and Conclusion</h3>
             </div>
             <div class="references">
                 <h3>References</h3>
