@@ -143,10 +143,19 @@
                 <h3>Animations Development</h3> 
                 <h4>Written 01/01/2021</h4>
                 <h4>Code Written 10/12/2020</h4>
-                <p>After completing my static layout I started to consider</p> 
+                <p>After completing my static layout I started to consider what animations I could add to my site to improve it. When doing my reserach I noted that some sites I looked at use lots of animations. I also noted the same sites that use lots of animations can struggle to load quickly and can be overwhelming. I wanted to avoid this so I decided to pick one area of the site to focus on animating.</p>
+                <p>I decided to focus my animations on the navigatione menu as that is where the user is most likely to click and hover over wehn using my site. I decided against animating the main and aside content of my site as it can be annoying and distracting if animations kept occurring while trying to read the sites content.</p> 
+                <p>I looked at this book for inspiration on my animations.</p>
+                <img src="Code Morphology\Desktop CSS hover.png" class="desktopCSSHover" alt="Code used to change the navigation buttons colour when hovered on">
+                <p>The first animation I added changes the colour of the navigation button hovered on. I like this animation as it helps the user understand where the cursor is.</p>
+                <p>This animation is simple to code in CSS, it requires a before and after state. The before state being the normal li element and the after state being the :hover attribute. li:hover has one line of code in it which changes the background colour to another colour when the mouse cursor is hovered over. The same code is also applied to the top footer to make it consistent with the navigation bar. </p>
+                <img src="Code Morphology\Desktop CSS Button Scale .png" class="desktopCSSScale" alt="Code used to make the navigation buttons change size">
+                <p>The second animation I added was based on information I sourced from...</p>
+                <p>This animation has two steps to it, a transform and a transition. When hovered over the transform enlarges the button to highlight it, achieved by using scale. However if transform was used by itself this change would be sudden, this would look unfinished and jarring for the site users. Therefore a transition is used. The transition allows me to set the speed that the navigation bar goes from the before hover state to the hover state. In this code this is 0.5 seconds. Next to this is the transition method. In this example it is a transition called ease-in-out, this is a transition with a slow beginning and end. This gives the user the impression that the button is coming towards them. </p>
             </div>
             <div class="main-6">
                 <h3>Form development and styling</h3>
+                
             </div>
 
             <div class="main-7">
