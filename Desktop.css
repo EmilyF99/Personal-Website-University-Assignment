@@ -1,5 +1,6 @@
 /*Grid that is used for all the desktop design*/
 /*Margin is used to correct display as Chrome auto added a margin when grid was implemented */
+/* Grid Guidance sourced from Ben Frain (2020)*/
 body {
     display: grid;
     grid-template-columns:auto;
@@ -27,6 +28,7 @@ nav {
 }
 /*When cursor is hovered over the box changes to the box occur, the colour changes to gray, 
 transform changes the size of the box and transition animates this so it 'grows' to size rather than suddenly changes*/
+/*Animation for transition and transform sourced from Chris Coyier (2014) */
 .top-footer:hover {
     background-color: #444;
     transition: 0.5s ease-in-out;
@@ -41,6 +43,7 @@ li {
     padding: 1.75em 1.5em 1.75em 1.5em;
     margin: 1em;
     background-color: #5A2E2E;
+    /*Box shadow sourced from Ben Frain (2020)*/
     box-shadow: 3px 3px 3px 3px #444; 
 }
 /*When hovered on a nav item the colour changes of both the box and the shadow*/
@@ -83,6 +86,7 @@ main {
 /*All pictures that are used on the website,
 Clip-path turns all the rectangle photos into circles
 Sizes asigned in terms of pixels */
+/*clip-path circle sourced from Ben Frain (2020)*/
 .profile-picture {
     clip-path:circle(50%);
     width:300px;
@@ -126,6 +130,17 @@ Sizes asigned in terms of pixels */
     clip-path:circle(50%);
     width:200px;
     height:200px;
+}
+.siteReport1 {
+    clip-path:circle(50%);
+    width:200px;
+    height:200px;
+}
+.siteReport2 {
+    clip-path:circle(50%);
+    width:200px;
+    height:200px;
+    margin-bottom: 2em;
 }
 /*This is not used on the Desktop part of the site*/
 .mobile_top {
