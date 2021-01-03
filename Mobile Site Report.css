@@ -1,5 +1,6 @@
 /*Grid that is used for all the desktop design*/
 /*Margin is used to correct display as Chrome auto added a margin when grid was implemented */
+/* Grid Guidance sourced from Ben Frain (2020)*/
 body {
     display: grid;
     grid-template-columns:auto;
@@ -116,6 +117,8 @@ h4{
     padding-left: 15px;
     padding-right: 25px;
 }
+
+/*Image list */
 .GoDaddy-example {
     width: 425px;
     height: 375px;

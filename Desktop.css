@@ -48,6 +48,7 @@ li {
 }
 /*When hovered on a nav item the colour changes of both the box and the shadow*/
 /*Animation works the same as the one on the top footer */
+/*Animation for transition and transform sourced from Chris Coyier (2014) */
 li:hover {
     background-color: #444;
     box-shadow: inset 1px 1px 1px 1px #000000;
