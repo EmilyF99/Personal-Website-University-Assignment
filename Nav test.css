@@ -24,6 +24,7 @@ nav:target {
     border-top: 0.5em solid white;
     border-bottom: 0.5em solid white;
 }
+
 .shownav:before {
     content:'';
     position: absolute;
