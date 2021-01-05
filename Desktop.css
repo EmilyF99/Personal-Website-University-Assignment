@@ -4,7 +4,7 @@
 body {
     display: grid;
     grid-template-columns:auto;
-    grid-template-rows: "25% 15% 15% 15% 15%"; 
+    grid-template-rows: auto; 
     grid-template-areas: "nav top-footer"
                          "aside main"
                          "aside-2 main-2"
