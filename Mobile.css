@@ -73,7 +73,7 @@ Sizes asigned in terms of pixels */
     height:150px;
     margin-left: 2em;
     margin-right: 1em;
-    margin-bottom: 15.5em; /*Used to extend page size to the bottom of the screen, 
+    margin-bottom: 20em; /*Used to extend page size to the bottom of the screen, 
                             will need to be changed or deleted if adding content */
 }
 .linkedIn-picture {
@@ -91,7 +91,7 @@ Sizes asigned in terms of pixels */
     height:150px;
     margin-left: 2em;
     margin-right: 1em;
-    margin-bottom: 2em; /*Used to extend page size to the bottom of the screen, 
+    margin-bottom: 10em; /*Used to extend page size to the bottom of the screen, 
                         will need to be changed or deleted if adding content */
 }
 .retail-picture {
@@ -145,5 +145,5 @@ Sizes asigned in terms of pixels */
     clip-path:circle(50%);
     width:150px;
     height:150px;
-    margin-bottom:6em;
+    margin-bottom:15em;
 }

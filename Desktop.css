@@ -92,7 +92,7 @@ Sizes asigned in terms of pixels */
     clip-path:circle(50%);
     width:300px;
     height:300px;
-    margin-bottom: 10em; /*Used to extend page size to the bottom of the screen, 
+    margin-bottom: 20em; /*Used to extend page size to the bottom of the screen, 
                         will need to be changed or deleted if adding content */
 }
 .laptop-picture {
@@ -105,7 +105,7 @@ Sizes asigned in terms of pixels */
     clip-path:circle(50%);
     width:200px;
     height:200px;
-    margin-bottom: 2em; /*Used to extend page size to the bottom of the screen, 
+    margin-bottom: 10em; /*Used to extend page size to the bottom of the screen, 
                         will need to be changed or deleted if adding content */
 }
 
