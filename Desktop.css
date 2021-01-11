@@ -26,7 +26,7 @@ nav {
     color:white;
     font-family: 'Roboto Slab', serif;
 }
-/*When cursor is hovered over the box changes to the box occur, the colour changes to gray, 
+/*When cursor is hovered over the box changes to the box occur, the colour changes to grey, 
 transform changes the size of the box and transition animates this so it 'grows' to size rather than suddenly changes*/
 /*Animation for transition and transform sourced from Chris Coyier (2014) */
 .top-footer:hover {
@@ -86,7 +86,7 @@ main {
 }
 /*All pictures that are used on the website,
 Clip-path turns all the rectangle photos into circles
-Sizes asigned in terms of pixels */
+Sizes assigned in terms of pixels */
 /*clip-path circle sourced from Ben Frain (2020)*/
 .profile-picture {
     clip-path:circle(50%);

@@ -26,7 +26,7 @@ body {
 nav{
     display:none;
 }
-/*Opens the navigation menu over the top of site,
+/*Opens the navigation menu over the top of the site,
 sets background colour, centres and adds centres the text to the middle of the screen to make it easier to click*/
 /*nav:target sourced from Tom Butler (2020)*/
 nav:target {
@@ -64,7 +64,7 @@ nav:target {
 }
 /*All pictures that are used on the website,
 Clip-path turns all the rectangle photos into circles
-Sizes asigned in terms of pixels */
+Sizes assigned in terms of pixels */
 /*clip-path circle sourced from Ben Frain (2020)*/
 .profile-picture {
     clip-path:circle(50%);
