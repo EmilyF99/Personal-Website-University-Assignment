@@ -4,7 +4,7 @@
 body {
     display: grid;
     grid-template-columns:auto;
-    grid-template-rows: "30% 17% 17% 17% 17%"; 
+    grid-template-rows: auto; 
     grid-template-areas: "mobile_top"
                          "main" 
                          "main-2"
