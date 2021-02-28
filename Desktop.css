@@ -141,7 +141,7 @@ Sizes assigned in terms of pixels */
     clip-path:circle(50%);
     width:200px;
     height:200px;
-    margin-bottom: 2em;
+    margin-bottom: 10em;
 }
 /*This is not used on the Desktop part of the site*/
 .mobile_top {
